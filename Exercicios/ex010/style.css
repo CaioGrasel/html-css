@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* em HTML é id = em CSS é # 
+ em HTML é class = em CSS é . */
+
+ @font-face {
+    font-family: 'poppins-regular';
+    src: url('fonts/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'poppins-regular';
+}
+
+h1 {
+    color: rgb(69, 48, 163);
+    font-family: 'poppins-regular';
+}
+
+h1#principal {
+    text-align: center;
+    color: rgb(140, 53, 255);
+}
+
+h2 {
+    font-family: 'poppins-regular';
+}
+
+p {
+    font-family: 'poppins-regular';
+}
+
+.basico{
+    color: aqua;
+}
+.intermediario{
+    color: aquamarine;
+}
