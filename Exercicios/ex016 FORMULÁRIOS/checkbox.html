@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label>
+            
+            <input type="radio" name="sexo" id="ixfem"><label for="ixfem">Femenino</label>
+        </fieldset>
+        
+        <Fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="esfut"><label for="esfut">futebol</label><br>
+            
+            <input type="checkbox" name="esfut" id="esbas"><label for="esbas">Basquete</label><br>
+            
+            <input type="checkbox" name="esfut" id="esnat"><label for="esnat">Natação</label><br>
+            
+            <input type="checkbox" name="esfut" id="esten"><label for="esten">Tênis</label><br>
+        </Fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
